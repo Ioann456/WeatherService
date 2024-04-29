@@ -1,10 +1,5 @@
 #pragma once
-
 #include "Service.h"
-#include "pugixml-1.14/src/pugixml.hpp"
-#include "pugixml-1.14/src/pugixml.cpp"
-
-using namespace pugi;
 
 class XmlService :public Service
 {
