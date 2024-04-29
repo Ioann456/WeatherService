@@ -1,6 +1,11 @@
 ﻿#include <iostream>
+#include "JsonService.h"
+#include "Weather.h"
+#include "json.hpp"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	JsonService js;
+	Weather w = js.getWeather("weather.json");
+	return 0;
 }
