@@ -5,6 +5,12 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WeatherService", "WeatherService.vcxproj", "{F472DB19-A4A3-4A66-BCF3-C2B87B0E8886}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{83D25532-0B5C-4594-9320-9D491B08EC0C}"
+	ProjectSection(SolutionItems) = preProject
+		pugixml-1.14\src\pugixml.cpp = pugixml-1.14\src\pugixml.cpp
+		pugixml-1.14\src\pugixml.hpp = pugixml-1.14\src\pugixml.hpp
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
